@@ -1,4 +1,4 @@
-@model Graph.Components.Navigation.FooterModel
+@model Graph.Components.Footer.FooterModel
 
 @Html.Raw(Model.Address)
 
@@ -42,7 +42,9 @@
 	@Model.YouTube
 }
 
-@if (string.IsNullOrEmpty(Model.CopyrightText) == false)
+@Html.Raw(Model.CopyrightText)
+
+@foreach (var pageLink in Model.Pages)
 {
-	@Model.CopyrightText
+	<a href="@pageLink.Link">@pageLink.Caption</a>
 }

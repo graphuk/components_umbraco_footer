@@ -3,7 +3,7 @@ using Umbraco.Web;
 using Umbraco.Web.Mvc;
 using Zone.UmbracoMapper;
 
-namespace Graph.Components.Navigation
+namespace Graph.Components.Footer
 {
 	public class FooterSurfaceController : SurfaceController
 	{

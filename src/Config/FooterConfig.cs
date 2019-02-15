@@ -1,4 +1,4 @@
-namespace Graph.Components.Navigation
+namespace Graph.Components.Footer
 {
 	public static class FooterConfig
 	{
@@ -17,5 +17,6 @@ namespace Graph.Components.Navigation
 		public const string YouTubeFieldAlias = "youTube";
 
 		public const string CopyrightTextFieldAlias = "copyrightText";
+		public const string PagesFieldAlias = "pages";
 	}
 }
